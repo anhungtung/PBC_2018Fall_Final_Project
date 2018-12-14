@@ -23,11 +23,6 @@ def logger_config(debug, to_file=False):
         logging.config.dictConfig(dict_config)
         logging.info('Debug mode.')
     else:
-        if to_file:
-            dict_config['loggers']['mixer_music'] = ['player']
-        else:
-            dict_config['loggers']['mixer_music'] = ['music_mixer']
-
         logging.config.dictConfig(dict_config)
         logging.info('Release mode.')
 
