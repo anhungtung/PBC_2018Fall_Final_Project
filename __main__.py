@@ -36,6 +36,8 @@ def logger_config(debug, to_file=False):
 # =============================
 
 if __name__ = '__main__':
+  root = tk.Tk()
+  root.minsize(800,600)
   # TK_GUI Creation
   while textbox :
     x = text # input from GUI
@@ -44,9 +46,13 @@ if __name__ = '__main__':
     data = webscraper.update()
     ### Adjust your function here ###
     params = {meters, exhitbit = 10 } #customize
-    table = dataprocessor.exec(log_, data, params)
+    def clicking():
+        Ex = dataprocessor.Exec(params)
+        Ex.exec(log_)
     
-    Tk.show(table)
+    confirm = Button(root, text = '確認', command = clicking())
+    confirm.pack()
+    
+    root.show(table)
     while True:
-      tk.mainloop()
-     
+      root.mainloop()
