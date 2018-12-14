@@ -6,3 +6,12 @@ Editor :
 3. 社會三 郭思妤 B05305014
 4. 國企四 童安弘 B04704031
 5. 經濟三 蔣豐煜 B05607063
+
+
+# Package Version :
+## pipenv package manager ##
+ - pandas 0.23.4
+ - numpy 1.15.4
+ - tk 8.6.8
+ - beautilfulsoup 4.6.3
+ - matplotlib 3.0.0
