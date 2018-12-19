@@ -16,3 +16,4 @@ Editor :
  - tk 8.6.8
  - beautilfulsoup 4.6.3
  - matplotlib 3.0.0
+
