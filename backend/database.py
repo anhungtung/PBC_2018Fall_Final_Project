@@ -8,6 +8,9 @@ class Get_data(DatabaseManager):
     super().__init__()
     pass
   
+  def get_data():
+    pass
+  
   @staticmethod
   def log_changer(self):
     log = change(self.address)
@@ -15,6 +18,6 @@ class Get_data(DatabaseManager):
   
   @staticmethod
   def update(self, url = '')
-    database_check()
-    database_update()
+    self.database_check()
+    self.database_update()
     pass
