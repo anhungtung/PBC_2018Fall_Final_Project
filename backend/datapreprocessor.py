@@ -10,19 +10,18 @@ class Exec:
     
     def exec():
         table = pd.read_csv('total_database.csv',encoding="big5")
-        table.columns=["number",'Reason','address','time']
 
         table["type"] = np.nan 
         table["point"] = np.nan
     def cal_type(row):
-        if "清" in row["Reason"]:
+        if "清" in row["派工項目"]:
             row['type'] = "衛生"
             row['point'] = 1
 
-        elif "噪音"in  row["Reason"]:
+        elif "噪音"in  row["派工項目"]:
             row['type'] = "住宅安寧"  
             row['point'] = 2     
-        elif "海砂屋"in row["Reason"]:
+        elif "海砂屋"in row["派工項目"]:
             row['type'] = "住宅安全"    
             row['point'] = True 
         else:
@@ -32,5 +31,4 @@ class Exec:
         return row
     table = table.apply(cal_type, axis=1)
    
-    table['log'] = Get_Data.log_changer(table['address'])
-    #coding_here
+  
