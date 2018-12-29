@@ -24,10 +24,10 @@ class Exec:
             row['point'] = 2     
         elif "海砂屋"in row["Reason"]:
             row['type'] = "住宅安全"    
-            row['point'] = 1 
+            row['point'] = True 
         else:
             row['type'] = "交通安全"  
-            row['point'] = True
+            row['point'] = 1
 
         return row
     table = table.apply(cal_type, axis=1)
