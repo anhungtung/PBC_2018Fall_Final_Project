@@ -9,7 +9,7 @@ class Exec:
     pass
     
     def exec():
-        table = pd.read_csv('......')
+        table = pd.read_csv('total_database.csv',encoding="big5")
         table.columns=["number",'Reason','address','time']
 
         table["type"] = np.nan 
