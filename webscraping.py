@@ -6,7 +6,6 @@ import urllib.request, json
 import csv
 import requests
 import pandas as pd 
-import getpass
 import googlemaps
 import numpy as np
 
