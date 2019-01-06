@@ -20,5 +20,5 @@
  - beautilfulsoup 4.6.3
  - matplotlib 3.0.0
  
- ![image]PBC_2018Fall_Final_Project/image/49250850_956902541174939_6712651854896955392_n.png
+ ![image](https://github.com/anhungtung/PBC_2018Fall_Final_Project/blob/master/image/49250850_956902541174939_6712651854896955392_n.png)
   
