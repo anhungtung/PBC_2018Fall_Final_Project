@@ -13,7 +13,6 @@
 
 
 # Package Version :
-## pipenv package manager ##
  - pandas 0.23.4
  - numpy 1.15.4
  - tk 8.6.8
