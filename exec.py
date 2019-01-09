@@ -316,6 +316,5 @@ class Resultpage(tk.Frame):
         self.button_back2AddressPage.place(x = 846, y = 460, anchor = 'center')	
 	
 	
-if __name__ == "__main__":
-    root = Samplewin()
-    root.mainloop()
+root = Samplewin()
+root.mainloop()
